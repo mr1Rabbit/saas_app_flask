@@ -26,7 +26,7 @@ def create_app():
     @app.route('/')
     def index():
 
-        return 'Hello World!'
+        return app.config['HELLO']
     """
     Return the instance of the flask application.
     """
