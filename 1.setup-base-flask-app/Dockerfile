@@ -1,5 +1,5 @@
 FROM python:2.7-slim
-MAINTAINER Abdelmounaim Azziza <abdelmounaim.azziza@kplr.fr>
+LABEL maintainer="Abdelmounaim Azziza <abdelmounaim.azziza@kplr.fr>"
 
 ENV INSTALL_PATH /snakeeyes
 RUN mkdir -p $INSTALL_PATH
