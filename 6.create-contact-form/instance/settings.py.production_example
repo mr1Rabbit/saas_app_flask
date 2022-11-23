@@ -1,0 +1,6 @@
+DEBUG = False
+n'
+
+MAIL_USERNAME = 'you@realemailaccount.com'
+MAIL_PASSWORD = 'thebestpasswordyouevermade'
+
