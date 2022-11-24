@@ -2,6 +2,9 @@
 #### 1.  Running the Flask Application
 ---
 
+<details>
+<summary> How to run the project.</summary>
+
 ## Build and start everything with Docker Compose
 
 ```
@@ -45,11 +48,16 @@ docker ps
 docker-compose stop
 ```
 
+</details>
+
 ---
 
 #### 2. Dealing with Configuration Settings
 
 ---
+
+<details>
+<summary> Configure the project.</summary>
 
 ## Start everything with Docker Compose
 
@@ -85,3 +93,5 @@ docker-compose rm -f
 ```
 docker rmi -f $(docker images -qf dangling=true)
 ```
+
+</details>
